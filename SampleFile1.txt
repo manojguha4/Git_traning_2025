@@ -1,2 +1,2 @@
 this is the samplea file
-It is used for git revert1
+It is used for git revert
