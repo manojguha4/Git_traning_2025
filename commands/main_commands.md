@@ -18,7 +18,9 @@ origin  https://github.com/manojguha4/PythonCourse.git (fetch)
 origin  https://github.com/manojguha4/PythonCourse.git (push)
 scripts (main)$ 
 
+if url is not set:
 
+GiT (master)$ git remote set-url origin https://github.com/manojguha4/Git_traning_2025.git
 
 # ✅ Solution 1 — Fetch or clone the repo properly
 
@@ -31,6 +33,13 @@ Run:
 git fetch origin
 git checkout main
 
+
+
+# Local branch and remote branch should be same when you are pushing. 
+# so when you try to push on main branch on remote repo, push from local main branch.
+
+git branch -M main
+git push -u origin main
 
 # some times git push is not woking:
 
